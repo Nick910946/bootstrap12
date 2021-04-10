@@ -1,0 +1,50 @@
+
+		.a{
+  	background-color:black;
+
+}
+li a{
+      
+      word-spacing: 20px;
+      margin-left: 80px;
+      font-family: 'Fjalla One', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+
+}
+li a:hover{
+	 background-color:red ;
+      border-radius: 5px;
+}
+/*.back{
+  background:#111215;
+}*/
+
+.mobilelogo{
+  display: none;
+ 
+}
+
+
+@media(max-width: 724px){
+  .mobilelogo{
+    display: block;
+  }
+  .weblogo{                          
+    display:none;
+
+  }
+  .bg-color{
+    background: red;
+  }
+  .b{
+    background-color:red;
+  }
+
+.carousel-caption{
+    color: #fff;
+    position: absolute;
+    top: 27%;
+    left: 82px;
+  }
+ 
+}
